@@ -1,39 +1,61 @@
-# Hello World with React boilerplate
+# React Landing Page
 
-Start coding a react application
+This is a simple React landing page built with reusable components including a Navbar, Jumbotron, Card section, and Footer.
 
-> If you are working locally instead of using codespaces or gitpod, please follow [local installation steps](#local-installation-skip-if-you-are-working-on-codespaces-or-gitpod) and come back to this part of the readme.
+## Features
 
-## How to start coding?
+- Modular component structure (Navbar, Jumbotron, Cards, Footer)
+- Responsive layout using Bootstrap classes
+- Props used to customize card content
+- Placeholder images and text (easily replaceable)
 
-- Install the packages with `$ npm install`.
-- Run the webpack server with `$ npm run start`
-
-You can update the `styles/index.css` or `js/index.js` depending on your needs.
-Add more files into your, `./src/js/components` or styles folder as you need them.
-
-## Local Installation (skip if you are working on codespaces or gitpod)
-
-Download the boilerplate using git
+## Project Structure
 
 ```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Jumbotron.jsx
+│   ├── Card.jsx
+│   └── Footer.jsx
+├── Home.jsx
+├── App.js
+└── index.js
 ```
 
-## Publish your website!
+## Getting Started
 
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
+1. Install dependencies
 
-It takes just 2 minutes to deploy, [click here to start the process](https://4geeks.com/docs/start/deploy-to-render-com).
+   ```bash
+   npm install
+   ```
 
-## Other features
+2. Start the development server
 
-- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
-- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
+   ```bash
+   npm start
+   ```
 
-### Contributors
+3. View in browser  
+   Open `http://localhost:3000`
 
-This template was built as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
+## Customize
 
-You can find other templates and resources like this at the [school github page](https://github.com/4geeksacademy/).
+- Replace placeholder image URLs with your own in `Home.jsx`
+- Edit card titles and text through the `cardData` array
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+## Learn More
+
+This project is great for learning:
+
+- Functional React components
+- Passing props
+- Component-based design
+- Bootstrap layout classes
