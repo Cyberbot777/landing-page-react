@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar.jsx";
 import Jumbotron from "./Jumbotron.jsx";
-import Card from "./card.jsx";
-import Footer from "./footer.jsx";
+import Card from "./Card.jsx";
+import Footer from "./Footer.jsx";
 
 const Home = () => {
 	const cardData = [
